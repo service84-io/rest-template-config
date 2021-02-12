@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 @ExtendWith(SpringExtension.class)
 public class RestTemplateConfigurationTests {
   @TestConfiguration
-  public static class Configuration extends RestTemplateConfiguration {}
+  public static class TestRestTemplateConfiguration extends RestTemplateConfiguration {}
 
   // Test Subject
   @Autowired private RestTemplateConfiguration restTemplateConfiguration;
