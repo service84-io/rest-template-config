@@ -14,7 +14,7 @@ def s84Name = 'Rest Template Config'
 def s84JarName = 'resttemplateconfig'
 def s84Description = 'Creates a RestTemplate in a Spring service'
 def s84GithubBase = 'https://github.com/service84-io/rest-template-config'
-def s84Version = '1.2.0'
+def s84Version = '1.2.1-SNAPSHOT'
 
 // configure all java components to be published
 publishing {
