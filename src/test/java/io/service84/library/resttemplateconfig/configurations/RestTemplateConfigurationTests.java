@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package io.service84.library.resttemplateconfig;
+package io.service84.library.resttemplateconfig.configurations;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -22,6 +22,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.web.client.RestTemplate;
+
+import io.service84.library.resttemplateconfig.configurations.RestTemplateConfiguration;
 
 @ExtendWith(SpringExtension.class)
 public class RestTemplateConfigurationTests {
